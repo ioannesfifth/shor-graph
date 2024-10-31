@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Fourier plot"
+version = "1.0"
+description = ""
+
+authors = [
+    "John Ryan Ramos <johnramosver@gmail.com>"
+]
+
+[tool.poetry.dependencies]
+python = "3.13.0"
+matplotlib = "3.9.2"
+numpy = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.1"
+
